@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Dom Event Example</h2>
+Enter your name: <input type="text" id="fname" onchange="lowerCase()">
+<p>Convert tet to the Lowercase.</p>
+
+<script>
+function lowerCase() {
+    const x =document.getElementById("fname");
+    x.value = x.value.toLowerCase();
+
+}
+</script>
+
+</body>
